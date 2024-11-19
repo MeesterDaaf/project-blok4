@@ -29,42 +29,43 @@
 
 <body>
 
-    <form action="" method="post">
+    <form action="process_form.php" method="post">
         <div class="form-group">
             <label for="voornaam">Voornaam</label>
-            <input type="text" name="" id="voornaam">
+            <input type="text" name="voornaam" id="voornaam" />
         </div>
         <div class="form-group">
             <label for="tussenvoegsel">Tussenvoegsel</label>
-            <input type="text" name="" id="tussenvoegsel">
+            <input type="text" name="tussenvoegsel" id="tussenvoegsel">
         </div>
 
         <div class="form-group">
             <label for="achternaam">Achternaam</label>
-            <input type="text" name="" id="achternaam">
+            <input type="text" name="achternaam" id="achternaam">
         </div>
         <div class="form-group">
             <label for="straat">Straat</label>
-            <input type="text" name="" id="straat">
+            <input type="text" name="straat" id="straat">
         </div>
         <div class="form-group">
             <label for="huisnummer">Huisnummer</label>
-            <input type="text" name="" id="huisnummer">
+            <input type="text" name="huisnummer" id="huisnummer">
         </div>
         <div class="form-group">
             <label for="postcode">Postcode</label>
-            <input type="text" name="" id="postcode">
+            <input type="text" name="postcode" id="postcode">
         </div>
         <div class="form-group">
             <label for="plaats">Plaats</label>
-            <input type="text" name="" id="plaats">
+            <input type="text" name="plaats" id="plaats">
         </div>
         <div class="form-group">
             <label for="land">Land</label>
-            <input type="text" name="" id="land">
+            <input type="text" name="land" id="land">
         </div>
 
-
+        <button type="submit">Sla op</button>
+        
 
     </form>
 
